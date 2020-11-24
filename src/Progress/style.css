@@ -1,0 +1,9 @@
+.bar-outer{
+    border: 1px solid #ccc;
+}
+
+.bar-inner{
+    background-color: #ab0a0a;
+    display: inline-block;
+    height: 24px;
+}

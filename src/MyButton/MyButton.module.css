@@ -1,0 +1,17 @@
+.btn{
+    background: #cde;
+    border-radius: 20px;
+    font-size: 2em;
+    width: 250px;
+    text-align: center;
+    padding: 0.5em 0;
+    margin: 0.5em;
+}
+
+.btn-text{
+    color: red;
+}
+
+.btnText{
+    color: red;
+}

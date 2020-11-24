@@ -1,0 +1,56 @@
+.card{
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: #eee;
+  font-family: sans-serif, Microsoft JhengHei;
+  padding: 0 1em 0.5em;
+  box-shadow: 2px 2px 4px #999;
+}
+
+.card__description__text{
+  width: 100%;
+}
+
+.card__description__text.less {
+  height: 1.5em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card__title{
+  border-bottom: 1px solid #ccc;
+}
+
+.card__avatar{
+  width: 30px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.card__states{
+  display: flex;
+  margin: 1em 0;
+}
+
+.card__state{
+  flex: 1;
+}
+
+.card__state > *{
+  display: inline-block;
+}
+
+.card__state > label{
+  background: #cdd;
+  font-size: 0.8em;
+  border-radius: 4px;
+  padding: 0.2em 0.4em;
+  margin-right: 0.5em;
+}
+
+.card__vedio{
+  width: 100%;
+  max-width: 100%;
+  border-radius: 10px;
+}
